@@ -5,8 +5,7 @@ cust_id int(5) Not Null,
 first_name varchar(20),
 last_name varchar(20),
 dept_id int(5),
-primary key(cust_id),
-Foreign Key (dept_id) REFERENCES(department));
+primary key(cust_id));
 
 
 insert into customer values (1,'Tony','Stark',null);
